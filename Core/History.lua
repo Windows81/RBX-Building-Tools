@@ -22,8 +22,7 @@ History = {
 
 function WaitForDebounce()
 	while History.Debounce do
-		-- task.wait();
-		wait();
+		task.wait();
 	end;
 end;
 
